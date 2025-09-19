@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Keania+One&display=swap');
+
+.home {
+    text-align: left;
+    padding: 150px;
+    /* TODO: Add background image styles here */
+    background-image: url('/Users/tingweilin/Documents/puzzleClub/puzzle_club_website/src/assets/image/homepage.jpg');
+    background-size:cover;
+    background-position: center;
+    color: white; 
+    height: auto; 
+    min-height: 400px;
+    filter: brightness(80%);
+  }
+
+.puzzleHunt{
+  min-height:600px;
+}
+
+  .home-body {
+    align-items: center; 
+  }
+
+  .info{
+    color:white
+  }
+
+  h1{
+    color: white;
+    text-align: left; 
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline;
+    font-family: "Keania One", sans-serif;
+    margin-left: 10px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  
+  main {
+    align-items: center;
+    background-color: #30110b;
+  }
+  
+  section {
+    margin: 30px; 
+    background-image: url('/Users/tingweilin/Documents/puzzleClub/puzzle_club_website/src/assets/image/cardTexture.jpg');
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .textured-card {
+    color: black
+  }
+  
+  .general-button {
+    background-color: #a54b34;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 25px;
+  }
+
+  .App-button{
+    background-color:rgb(195, 113, 93);
+    border: none;
+    margin: 15px;
+    padding: 15px 32px;
+
+  .body-text{
+    color: whitesmoke;
+  }
+
+  }
