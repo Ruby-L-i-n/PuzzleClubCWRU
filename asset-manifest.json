@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/PuzzleClubCWRU/static/css/main.f82dd4dd.css",
+    "main.js": "/PuzzleClubCWRU/static/js/main.c40d1059.js",
+    "static/js/453.7660387b.chunk.js": "/PuzzleClubCWRU/static/js/453.7660387b.chunk.js",
+    "static/media/homepage.jpg": "/PuzzleClubCWRU/static/media/homepage.42b26fe1f88d6e9a164e.jpg",
+    "static/media/cardTexture.jpg": "/PuzzleClubCWRU/static/media/cardTexture.f2de1b6a2e71ae55c4af.jpg",
+    "static/media/nevigationBarTexture.jpg": "/PuzzleClubCWRU/static/media/nevigationBarTexture.cb4ba1845048a511f0a0.jpg",
+    "index.html": "/PuzzleClubCWRU/index.html",
+    "main.f82dd4dd.css.map": "/PuzzleClubCWRU/static/css/main.f82dd4dd.css.map",
+    "main.c40d1059.js.map": "/PuzzleClubCWRU/static/js/main.c40d1059.js.map",
+    "453.7660387b.chunk.js.map": "/PuzzleClubCWRU/static/js/453.7660387b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f82dd4dd.css",
+    "static/js/main.c40d1059.js"
+  ]
+}
