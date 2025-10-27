@@ -17,12 +17,25 @@
   min-height:600px;
 }
 
+.about{
+  color: white; 
+  min-height:600px;
+}
+
+
+.contact{
+  color: white; 
+  min-height:600px;
+}
+
+
   .home-body {
     align-items: center; 
   }
 
   .info{
-    color:white
+    color:white;
+    padding: 25px;
   }
 
   h1{

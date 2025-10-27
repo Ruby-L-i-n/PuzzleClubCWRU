@@ -1,57 +1,22 @@
-import React from 'react';
+import KanthiPhoto from '../assets/exec_photos/Kanthi.png';
+import KashikaPhoto from '../assets/exec_photos/Kashika.png';
+import SatvikiPhoto from '../assets/exec_photos/Satviki.png';
+import RubyPhoto from '../assets/exec_photos/Ruby.png';
+import SreyashPhoto from '../assets/exec_photos/Sreyash.png';
+import profile from "../assets/exec_photos/profile_placeholder.jpg";
+
 import './Resources.css';
 
 //execs 
 const execs = [
-  {
-    name: "Kanthi",
-    role: "President",
-    year: "Senior",
-    major: "Biomedical Engineering",
-    puzzle: "Logic grid puzzles",
-    photo: "exec_photos/Kanthi.png",
-  },
-  {
-    name: "Kashika",
-    role: "Secretary",
-    year: "Senior",
-    major: "Biochemistry",
-    puzzle: "Tavern/Ring Puzzles",
-    photo: "exec_photos/Kashika.png",
-  },
-  {
-    name: "Satviki",
-    role: "Treasurer",
-    year: "Senior",
-    major: "Neuroscience",
-    puzzle: "Crosswords",
-    photo: "exec_photos/Satviki.png",
-  },
-  {
-    name: "Tanvi",
-    role: "Risk Manager",
-    year: "Senior",
-    major: "Neuroscience",
-    puzzle: "NYT Games",
-    photo: "exec_photos/Tanvi.png",
-  },
-  {
-    name: "Ruby",
-    role: "Head of Design",
-    year: "Senior",
-    major: "Computer Science",
-    puzzle: "Jigsaws/Math Puzzles",
-    photo: "exec_photos/Ruby.png",
-  },
-  {
-    name: "Sreyash",
-    role: "Membership",
-    year: "Senior",
-    major: "Computer Science",
-    puzzle: "Jigsaws/Math Puzzles",
-    photo: "exec_photos/Sreyash.png",
-  },
+  { name: "Kanthi", role: "President", year: "Senior", major: "Biomedical Engineering", puzzle: "Logic grid puzzles", photo: KanthiPhoto },
+    { name: "Sreyash", role: "Vice-President", year: "Sophomore", major: "", puzzle: "Logic grid puzzles", photo: SreyashPhoto },
+  { name: "Kashika", role: "Secretary", year: "Senior", major: "Biochemistry", puzzle: "Tavern/Ring Puzzles", photo: KashikaPhoto },
+  { name: "Satviki", role: "Treasurer", year: "Senior", major: "Neuroscience", puzzle: "Crosswords", photo: SatvikiPhoto },
+  { name: "Ruby", role: "Head of Design", year: "Senior", major: "Computer Science", puzzle: "Jigsaws/Math Puzzles", photo: RubyPhoto },
+  { name: "Jeannelle", role: "Design Assistant", year: "Sophomore", major: "Computer Science", puzzle: "Jigsaws/Math Puzzles", photo: profile },
 ];
+
 
 
 

@@ -3,11 +3,16 @@ import React from 'react';
 
 function Events() {
   const handleClickJoinUs = () => {
-    window.open("https://community.case.edu/home_login", "_blank", "noopener,noreferrer");
+    window.open("https://community.case.edu/feeds?type=club&type_id=20709&tab=about", "_blank", "noopener,noreferrer");
   }
   return (
     <div className="events">
       <h1>Events</h1>
+      <section>
+        <h2>Past Events</h2>
+        <p>Check out our instagram for past events</p>
+        <button className="general-button" onClick={() => {window.open("https://www.instagram.com/puzzleclub.cwru/", "_blank", "noopener,noreferrer")}}>Instagram</button>
+      </section>
       <section>
         <h2>Join our campus groups</h2>
         <p>Join our mailing list to receive the newest updates on upcoming events! </p>
@@ -21,8 +26,6 @@ function Events() {
           frameborder="0">
         </iframe>
       </section>
-      <h1>Past Events</h1>
-      <p className="info"> More information coming soon!</p>
     </div>
   );
 }
