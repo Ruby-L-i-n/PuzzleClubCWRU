@@ -3,7 +3,7 @@ import KashikaPhoto from '../assets/exec_photos/Kashika.png';
 import SatvikiPhoto from '../assets/exec_photos/Satviki.png';
 import RubyPhoto from '../assets/exec_photos/Ruby.png';
 import SreyashPhoto from '../assets/exec_photos/Sreyash.png';
-import JeannellePhoto from "../assets/exec_photos/Jeannelle.jpeg";
+import JeannellePhoto from "../assets/exec_photos/profile_placeholder.jpeg";
 
 import './Resources.css';
 
