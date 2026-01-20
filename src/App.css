@@ -29,8 +29,9 @@
 
 .App-header nav ul {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
-  gap: 15px;
+  gap: 0.5rem;
   margin: 0;
   padding: 0;
 }
