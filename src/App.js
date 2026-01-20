@@ -1,5 +1,5 @@
 import Logo from './assets/image/puzzle_nobackgraound.png';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import './App.css';
@@ -15,7 +15,7 @@ const openLink = (url) => {
 
 function App() {
   return (
-    <BrowserRouter basename="/PuzzleClubCWRU">
+    <HashRouter>
       <div className="App">
         <header className="App-header">
           <div className="header-content">
@@ -50,7 +50,7 @@ function App() {
           </nav>
         </footer>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

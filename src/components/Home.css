@@ -2,7 +2,7 @@
 
 .home {
     text-align: left;
-    padding: 150px;
+    padding: 10%;
     /* TODO: Add background image styles here */
     background-image: url('/Users/tingweilin/Documents/puzzleClub/puzzle_club_website/src/assets/image/homepage.jpg');
     background-size:cover;
@@ -78,6 +78,7 @@
   }
   
   .general-button {
+    margin: 2px;
     background-color: #a54b34;
     border: none;
     color: white;
