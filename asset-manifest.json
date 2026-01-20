@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/PuzzleClubCWRU/static/css/main.585697b2.css",
-    "main.js": "/PuzzleClubCWRU/static/js/main.724dcc07.js",
+    "main.css": "/PuzzleClubCWRU/static/css/main.2b0e1acc.css",
+    "main.js": "/PuzzleClubCWRU/static/js/main.07e11804.js",
     "static/js/453.7660387b.chunk.js": "/PuzzleClubCWRU/static/js/453.7660387b.chunk.js",
     "static/media/homepage.jpg": "/PuzzleClubCWRU/static/media/homepage.42b26fe1f88d6e9a164e.jpg",
     "static/media/cardTexture.jpg": "/PuzzleClubCWRU/static/media/cardTexture.f2de1b6a2e71ae55c4af.jpg",
     "static/media/nevigationBarTexture.jpg": "/PuzzleClubCWRU/static/media/nevigationBarTexture.cb4ba1845048a511f0a0.jpg",
+    "static/media/Jeannelle.jpeg": "/PuzzleClubCWRU/static/media/Jeannelle.d644877871c532006706.jpeg",
     "static/media/Sreyash.png": "/PuzzleClubCWRU/static/media/Sreyash.7e28bfd33b05606b978e.png",
     "static/media/Kanthi.png": "/PuzzleClubCWRU/static/media/Kanthi.dfffc1fe124f28bac8be.png",
     "static/media/Kashika.png": "/PuzzleClubCWRU/static/media/Kashika.6cfaf646fd9feba47d70.png",
@@ -13,12 +14,12 @@
     "static/media/Satviki.png": "/PuzzleClubCWRU/static/media/Satviki.53b9920d1751832624fb.png",
     "static/media/puzzle_nobackgraound.png": "/PuzzleClubCWRU/static/media/puzzle_nobackgraound.e379f8e5a05cf4ccbc95.png",
     "index.html": "/PuzzleClubCWRU/index.html",
-    "main.585697b2.css.map": "/PuzzleClubCWRU/static/css/main.585697b2.css.map",
-    "main.724dcc07.js.map": "/PuzzleClubCWRU/static/js/main.724dcc07.js.map",
+    "main.2b0e1acc.css.map": "/PuzzleClubCWRU/static/css/main.2b0e1acc.css.map",
+    "main.07e11804.js.map": "/PuzzleClubCWRU/static/js/main.07e11804.js.map",
     "453.7660387b.chunk.js.map": "/PuzzleClubCWRU/static/js/453.7660387b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.585697b2.css",
-    "static/js/main.724dcc07.js"
+    "static/css/main.2b0e1acc.css",
+    "static/js/main.07e11804.js"
   ]
 }
