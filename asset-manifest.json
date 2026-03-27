@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PuzzleClubCWRU/static/css/main.c67d18d8.css",
-    "main.js": "/PuzzleClubCWRU/static/js/main.bb503219.js",
+    "main.css": "/PuzzleClubCWRU/static/css/main.c17d7731.css",
+    "main.js": "/PuzzleClubCWRU/static/js/main.fef44aff.js",
     "static/js/453.7660387b.chunk.js": "/PuzzleClubCWRU/static/js/453.7660387b.chunk.js",
     "static/media/homepage.jpg": "/PuzzleClubCWRU/static/media/homepage.42b26fe1f88d6e9a164e.jpg",
     "static/media/cardTexture.jpg": "/PuzzleClubCWRU/static/media/cardTexture.f2de1b6a2e71ae55c4af.jpg",
@@ -15,12 +15,12 @@
     "static/media/Satviki.png": "/PuzzleClubCWRU/static/media/Satviki.53b9920d1751832624fb.png",
     "static/media/puzzle_nobackgraound.png": "/PuzzleClubCWRU/static/media/puzzle_nobackgraound.e379f8e5a05cf4ccbc95.png",
     "index.html": "/PuzzleClubCWRU/index.html",
-    "main.c67d18d8.css.map": "/PuzzleClubCWRU/static/css/main.c67d18d8.css.map",
-    "main.bb503219.js.map": "/PuzzleClubCWRU/static/js/main.bb503219.js.map",
+    "main.c17d7731.css.map": "/PuzzleClubCWRU/static/css/main.c17d7731.css.map",
+    "main.fef44aff.js.map": "/PuzzleClubCWRU/static/js/main.fef44aff.js.map",
     "453.7660387b.chunk.js.map": "/PuzzleClubCWRU/static/js/453.7660387b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c67d18d8.css",
-    "static/js/main.bb503219.js"
+    "static/css/main.c17d7731.css",
+    "static/js/main.fef44aff.js"
   ]
 }
