@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/PuzzleClubCWRU/static/css/main.3988fff5.css",
-    "main.js": "/PuzzleClubCWRU/static/js/main.85cfb6ba.js",
-    "static/js/453.7660387b.chunk.js": "/PuzzleClubCWRU/static/js/453.7660387b.chunk.js",
-    "static/media/homepage.jpg": "/PuzzleClubCWRU/static/media/homepage.42b26fe1f88d6e9a164e.jpg",
-    "static/media/invite.pdf": "/PuzzleClubCWRU/static/media/invite.e6ec1cc73cc97985185d.pdf",
-    "static/media/cardTexture.jpg": "/PuzzleClubCWRU/static/media/cardTexture.f2de1b6a2e71ae55c4af.jpg",
-    "static/media/clue_hunt2.jpg": "/PuzzleClubCWRU/static/media/clue_hunt2.a4c957cbfb93c8507a9d.jpg",
-    "static/media/nevigationBarTexture.jpg": "/PuzzleClubCWRU/static/media/nevigationBarTexture.cb4ba1845048a511f0a0.jpg",
-    "static/media/Jovanna.jpg": "/PuzzleClubCWRU/static/media/Jovanna.743c583f5cd599e2937c.jpg",
-    "static/media/Sreyash.png": "/PuzzleClubCWRU/static/media/Sreyash.7e28bfd33b05606b978e.png",
-    "static/media/Jeannelle.jpeg": "/PuzzleClubCWRU/static/media/Jeannelle.cc996d645543aa23ac27.jpeg",
-    "static/media/Kanthi.png": "/PuzzleClubCWRU/static/media/Kanthi.dfffc1fe124f28bac8be.png",
-    "static/media/Kashika.png": "/PuzzleClubCWRU/static/media/Kashika.6cfaf646fd9feba47d70.png",
-    "static/media/Ruby.png": "/PuzzleClubCWRU/static/media/Ruby.dc7c12e05c4c1a54b8c4.png",
-    "static/media/puzzle_nobackgraound.png": "/PuzzleClubCWRU/static/media/puzzle_nobackgraound.e379f8e5a05cf4ccbc95.png",
-    "index.html": "/PuzzleClubCWRU/index.html",
-    "main.3988fff5.css.map": "/PuzzleClubCWRU/static/css/main.3988fff5.css.map",
-    "main.85cfb6ba.js.map": "/PuzzleClubCWRU/static/js/main.85cfb6ba.js.map",
-    "453.7660387b.chunk.js.map": "/PuzzleClubCWRU/static/js/453.7660387b.chunk.js.map"
+    "main.css": "/static/css/main.be0dbebd.css",
+    "main.js": "/static/js/main.61600662.js",
+    "static/js/453.7660387b.chunk.js": "/static/js/453.7660387b.chunk.js",
+    "static/media/homepage.jpg": "/static/media/homepage.42b26fe1f88d6e9a164e.jpg",
+    "static/media/invite.pdf": "/static/media/invite.e6ec1cc73cc97985185d.pdf",
+    "static/media/cardTexture.jpg": "/static/media/cardTexture.f2de1b6a2e71ae55c4af.jpg",
+    "static/media/clue_hunt2.jpg": "/static/media/clue_hunt2.a4c957cbfb93c8507a9d.jpg",
+    "static/media/nevigationBarTexture.jpg": "/static/media/nevigationBarTexture.cb4ba1845048a511f0a0.jpg",
+    "static/media/Jovanna.jpg": "/static/media/Jovanna.743c583f5cd599e2937c.jpg",
+    "static/media/Sreyash.png": "/static/media/Sreyash.7e28bfd33b05606b978e.png",
+    "static/media/Jeannelle.jpeg": "/static/media/Jeannelle.cc996d645543aa23ac27.jpeg",
+    "static/media/Kanthi.png": "/static/media/Kanthi.dfffc1fe124f28bac8be.png",
+    "static/media/Kashika.png": "/static/media/Kashika.6cfaf646fd9feba47d70.png",
+    "static/media/Ruby.png": "/static/media/Ruby.dc7c12e05c4c1a54b8c4.png",
+    "static/media/puzzle_nobackgraound.png": "/static/media/puzzle_nobackgraound.e379f8e5a05cf4ccbc95.png",
+    "index.html": "/index.html",
+    "main.be0dbebd.css.map": "/static/css/main.be0dbebd.css.map",
+    "main.61600662.js.map": "/static/js/main.61600662.js.map",
+    "453.7660387b.chunk.js.map": "/static/js/453.7660387b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3988fff5.css",
-    "static/js/main.85cfb6ba.js"
+    "static/css/main.be0dbebd.css",
+    "static/js/main.61600662.js"
   ]
 }
