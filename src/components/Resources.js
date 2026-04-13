@@ -1,6 +1,6 @@
 import KanthiPhoto from '../assets/exec_photos/Kanthi.png';
 import KashikaPhoto from '../assets/exec_photos/Kashika.png';
-import SatvikiPhoto from '../assets/exec_photos/Satviki.png';
+import JovannaPhoto from '../assets/exec_photos/Jovanna.jpg';
 import RubyPhoto from '../assets/exec_photos/Ruby.png';
 import SreyashPhoto from '../assets/exec_photos/Sreyash.png';
 import JeannellePhoto from "../assets/exec_photos/Jeannelle.jpeg";
@@ -12,7 +12,7 @@ const execs = [
   { name: "Kanthi", role: "President", year: "Senior", major: "Biomedical Engineering", puzzle: "Logic grid puzzles", photo: KanthiPhoto },
     { name: "Sreyash", role: "Vice-President", year: "Sophomore", major: "", puzzle: "Logic grid puzzles", photo: SreyashPhoto },
   { name: "Kashika", role: "Secretary", year: "Senior", major: "Biochemistry", puzzle: "Tavern/Ring Puzzles", photo: KashikaPhoto },
-  { name: "Satviki", role: "Treasurer", year: "Senior", major: "Neuroscience", puzzle: "Crosswords", photo: SatvikiPhoto },
+  { name: "Jovanna", role: "Treasurer", year: "Senior", major: "Biochemistry", puzzle: "Logic grid puzzles", photo: JovannaPhoto },
   { name: "Ruby", role: "Head of Design", year: "Senior", major: "Computer Science", puzzle: "Jigsaws/Math Puzzles", photo: RubyPhoto },
   { name: "Jeannelle", role: "Design Assistant", year: "Freshman", major: "Computer Science", puzzle: "Zebra Puzzles", photo: JeannellePhoto },
 ];

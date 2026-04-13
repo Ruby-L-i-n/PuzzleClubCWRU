@@ -1,0 +1,249 @@
+
+/* FULL PAGE HERO */
+.cluehunt-page {
+    min-height: 100vh;
+    background-image: url('../../assets/image/clue_hunt2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* DARK OVERLAY */
+.cluehunt-overlay {
+    min-height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.65);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    text-align: center;
+}
+
+/* TITLE */
+.cluehunt-title {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.9);
+}
+
+/* COUNTDOWN */
+.cluehunt-countdown {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-bottom: 15px;
+
+    text-shadow: 0 0 10px rgba(255, 204, 0, 0.6);
+}
+
+.cluehunt-info {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.cluehunt-subtitle {
+    max-width: 700px;            /* constrains subtitle line length */
+    width: 90%;                   /* responsive */
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    line-height: 1.6;
+    opacity: 0.85;
+    margin-bottom: 30px;
+}
+
+/* BUTTON ROW */
+.cluehunt-actions {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+/* BUTTON STYLE (card-like but clean) */
+.cluehunt-card-button {
+    padding: 15px 30px;
+    border-radius: 12px;
+    border: none;
+    background-color: #a54b34;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.cluehunt-card-button:hover {
+    background-color: #c3715d;
+    transform: scale(1.08);
+}
+
+/* FOOTER */
+.cluehunt-footer {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+/* LINK */
+.cluehunt-link {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cluehunt-link:hover {
+    opacity: 1;
+}
+
+.cluehunt-start-hunt {
+    background: linear-gradient(135deg, #e4d03b 0%, #cea619 100%);
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    padding: 1.2rem 2.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 4px 4px 15px rgba(251, 220, 96, 0.6);
+    transition: all 0.3s ease;
+    margin: 2rem 0;
+}
+
+.cluehunt-start-hunt:hover {
+    transform: translateY(-3px);
+    box-shadow: 6px 6px 20px rgba(255, 226, 39, 0.934);
+    background: linear-gradient(135deg, #fff184 0%, #ffc800 100%);
+}
+
+.cluehunt-start-hunt:active {
+    transform: translateY(-1px);
+}
+
+
+.leaderboard-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.leaderboard-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.leaderboard-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    overflow-y: auto;
+    padding-right: 0.5rem;
+}
+
+.leaderboard-list::-webkit-scrollbar {
+    width: 8px;
+}
+
+.leaderboard-list::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
+
+.leaderboard-list::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.leaderboard-list::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.leaderboard-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem 1rem;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    border-left: 3px solid transparent;
+    flex-shrink: 0;
+}
+
+.leaderboard-item:hover {
+    background: rgba(255, 255, 255, 0.12);
+    transform: translateX(5px);
+}
+
+.leaderboard-item.rank-1 {
+    border-left-color: #f1c40f;
+    background: rgba(241, 196, 15, 0.1);
+}
+
+.leaderboard-item.rank-2 {
+    border-left-color: #95a5a6;
+    background: rgba(149, 165, 166, 0.1);
+}
+
+.leaderboard-item.rank-3 {
+    border-left-color: #cd7f32;
+    background: rgba(205, 127, 50, 0.1);
+}
+
+.leaderboard-rank {
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.6);
+    min-width: 40px;
+}
+
+.leaderboard-item.rank-1 .leaderboard-rank {
+    color: #f1c40f;
+}
+
+.leaderboard-item.rank-2 .leaderboard-rank {
+    color: #bdc3c7;
+}
+
+.leaderboard-item.rank-3 .leaderboard-rank {
+    color: #cd7f32;
+}
+
+.leaderboard-name {
+    flex: 1;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.leaderboard-score {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #e74c3c;
+    background: rgba(231, 76, 60, 0.1);
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+}
+
+.leaderboard-empty {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-style: italic;
+    padding: 2rem;
+}
+
+

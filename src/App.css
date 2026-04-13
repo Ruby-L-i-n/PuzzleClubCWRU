@@ -60,6 +60,21 @@
   /* subtle grow effect */
 }
 
+.login-button {
+  background-color: rgb(195, 113, 93); /* your cute color */
+  border: none;
+  border-radius: 12px;                /* rounded corners */
+  color: white;
+  padding: 6px 14px;                  /* small, compact size */
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.login-button:hover {
+  opacity: 0.85;                       /* subtle hover effect */
+}
+
 
 nav {
   list-style-type: none;

@@ -1,0 +1,88 @@
+/* src/components/Group.css */
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.group-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(80%); /* darken a little for readability */
+}
+
+.group-container {
+    max-width: 600px;
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.5); /* subtle overlay for readability */
+    border-radius: 12px;
+}
+
+.group-container h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.group-container p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+.group-id {
+    color: #ffcc00; /* bright yellow */
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.group-id-info {
+    font-size: 0.9rem;
+    color: #ddd;
+    margin-bottom: 15px;
+}
+
+.group-container div.group-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    gap: 10px; /* space between input and button */
+}
+
+.group-container input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    width: 200px; /* fixed width for consistency */
+    max-width: 250px;
+    font-size: 1rem;
+}
+
+.group-container button {
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: none;
+    background-color: #a54b34;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.group-container button:hover {
+    background-color: #c3715d;
+    transform: scale(1.05);
+}
+
+.group-message {
+    margin-top: 15px;
+    font-size: 1rem;
+}

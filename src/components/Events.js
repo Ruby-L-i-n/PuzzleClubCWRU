@@ -20,7 +20,7 @@ function Events() {
       </section>
       <section>
         <h2>Check out our events calender</h2>
-        <iframe src="https://calendar.google.com/calendar/embed?src=c_df68e88bfb18422cd0f37eef542a38850dca20bafefb1c6a30c67c9da2b15af8%40group.calendar.google.com&ctz=America%2FNew_York" 
+        <iframe title="Puzzle Club Events Calendar" src="https://calendar.google.com/calendar/embed?src=c_df68e88bfb18422cd0f37eef542a38850dca20bafefb1c6a30c67c9da2b15af8%40group.calendar.google.com&ctz=America%2FNew_York" 
           width="800" 
           height="600" 
           frameborder="0">
