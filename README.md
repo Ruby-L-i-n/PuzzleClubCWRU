@@ -1,70 +1,118 @@
-# Getting Started with Create React App
+# Getting Started
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React application bootstrapped with Create React App.
 
-## Available Scripts
+## Prerequisites
 
-In the project directory, you can run:
+Before running the project, make sure you have:
 
-### `npm start`
+- Node.js installed
+- npm installed (included with Node.js)
+- Access to the project's Supabase instance
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
 
-### `npm test`
+   git clone <repository-url>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate to the project directory:
 
-### `npm run build`
+   cd <project-directory>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Install the dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Environment Variables
 
-### `npm run eject`
+The website requires Supabase credentials to fully function.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Create a `.env` file in the root directory of the project.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Add the following environment variables:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+REACT_APP_SUPABASE_URL=your_supabase_url
+REACT_APP_SUPABASE_ANON_KEY=your_supabase_key
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Replace `your_supabase_url` and `your_supabase_key` with the project's actual Supabase URL and key.
 
-## Learn More
+For example:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+REACT_APP_SUPABASE_URL=https://your-project.supabase.co
+REACT_APP_SUPABASE_ANON_KEY=your-anon-key
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+IMPORTANT: Do not commit the `.env` file to Git. Make sure `.env` is included in `.gitignore`.
 
-### Code Splitting
+After creating or modifying the `.env` file, restart the development server for the changes to take effect.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Running the Website
 
-### Analyzing the Bundle Size
+### npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Runs the app in development mode.
 
-### Making a Progressive Web App
+    npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Then open http://localhost:3000 in your browser.
 
-### Advanced Configuration
+The page will automatically reload when you make changes. Any lint errors will also appear in the console.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Testing
 
-### Deployment
+### npm test
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Launches the test runner in interactive watch mode.
 
-### `npm run build` fails to minify
+    npm test
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Production Build
+
+### npm run build
+
+Builds the app for production and outputs the optimized files to the `build` folder.
+
+    npm run build
+
+The generated `build` folder can then be deployed to a hosting service.
+
+## Project Structure
+
+A typical project structure looks like:
+
+.
+├── public/             # Static files
+├── src/                # Application source code
+├── .env                # Local environment variables (do not commit)
+├── .gitignore
+├── package.json
+└── README.md
+
+## Troubleshooting
+
+### Supabase is not working
+
+If features that use Supabase are not working:
+
+1. Make sure the `.env` file exists in the project root.
+2. Check that the Supabase URL and key are correct.
+3. Make sure the variable names match exactly:
+
+   REACT_APP_SUPABASE_URL=your_supabase_url
+   REACT_APP_SUPABASE_ANON_KEY=your_supabase_key
+
+4. Restart the development server after changing `.env`.
+
+### The website does not start
+
+Try reinstalling the dependencies:
+
+    rm -rf node_modules
+    npm install
+    npm start
+
+## Additional Resources
+
+- React Documentation: https://react.dev/
+- Create React App Documentation: https://create-react-app.dev/
+- Supabase Documentation: https://supabase.com/docs
